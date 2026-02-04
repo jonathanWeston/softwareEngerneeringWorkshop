@@ -1,15 +1,3 @@
-# Write a script that:
-# • Asks the user to enter a password.
-# • Checks if the entered password contains at least 10 characters, at least one number
-# and a mix of upper and lowercase letters.
-# o If the password is invalid, report an error to the user and re-ask for a
-# password.
-# • Ask the user to confirm the password by re-entering it.
-# • Check if the passwords match.
-# o If the passwords match, display "success”.
-# o If the passwords do not match, display “unsuccessful: passwords do not
-# match” and ask the user to try again.
-
 def password_checker():
     password = input("please enter the password that you want to use ")
     number_check = False
